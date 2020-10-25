@@ -1,0 +1,55 @@
+$body-background-color:white;
+$font:'Dosis', sans-serif;
+$tittle-size:16px;
+$color-title:rgb(14, 14, 138);
+$centrar:center;
+$distribucion:space-between;
+$margen1:15px;
+$margen2:20px;
+
+body{
+    background-color:$body-background-color;
+}
+.titulo{
+    margin: $margen1;
+font-family: $font;
+color:$color-title;
+text-align: $centrar;
+display: flex;
+justify-content: $distribucion;
+}
+font,.titulo{
+    justify-content: $centrar;
+    align-items: center;
+    font-family: $font;
+}
+
+.col-sm{
+    margin: $margen1;
+}
+.servicios-listcontainer{
+    display: flex;
+    justify-content: $distribucion;
+}
+.servicios{
+    display: flex;
+    justify-content: $distribucion;
+
+}
+.seccion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@mixin boxmodel{
+    height: 5px;
+    background-color: rgb(181, 153, 207);
+    padding: 10px;
+}
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+}

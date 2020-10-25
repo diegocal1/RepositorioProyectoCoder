@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+
+.titulo {
+  margin: 15px;
+  font-family: "Dosis", sans-serif;
+  color: #0e0e8a;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+font, .titulo {
+  justify-content: center;
+  align-items: center;
+  font-family: "Dosis", sans-serif;
+}
+
+.col-sm {
+  margin: 15px;
+}
+
+.servicios-listcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccion1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
